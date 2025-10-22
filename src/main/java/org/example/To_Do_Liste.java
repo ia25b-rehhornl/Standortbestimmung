@@ -85,6 +85,9 @@ public class To_Do_Liste {
     }
 
     public static void edit() {
+
+        scanner.nextLine();
+
         if (aufgaben.isEmpty()) {
             System.out.println("Es gibt keine Aufgaben zum Bearbeiten.");
             return;
@@ -115,6 +118,9 @@ public class To_Do_Liste {
 
 
     public static void delet() {
+
+        scanner.nextLine();
+
         if (aufgaben.isEmpty()) {
             System.out.println("Es gibt keine Aufgaben zum Löschen.");
             return;
